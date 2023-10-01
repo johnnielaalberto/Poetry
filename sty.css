@@ -1,0 +1,126 @@
+body {
+       font-family: Arial, Verdana, sans-serif;
+    font-size: 90%;
+    color: black;
+    background-color: #D9C2D1;
+    background-image: url("tiles.jpg");
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    li {
+        list-style-image: url("icon-plus.png");
+        line-height: 1.6em;
+    }
+
+    .center ul{
+        text-align: center;
+        text-align: left;
+        display: inline-block;
+    }
+
+    table {
+        border-spacing: 0px;
+        margin: 25px auto 25px auto;
+    }
+
+    th, td {
+        padding: 5px 30px 5px 10px;
+        border-spacing: 0px;
+        font-size: 90%;
+        margin: 0px;
+    }
+            
+    th, td {
+        text-align: left;
+        background-color: #E8C2CD;
+        border-top: 1px solid #87B5BC;
+        border-bottom: 1px solid #773D33;
+        border-right: 1px solid #773D33;
+    }
+    
+    tr.head th {
+        color: black;
+        background-color: #CD6179;
+        border-bottom: 2px solid #773D33;
+        border-right: 1px solid #773D33;
+        border-top: 1px solid #F4D2D9;
+        text-align: center;
+        text-shadow: -1px -1px 1px #D4A2A6;
+        letter-spacing: 0.15em;
+    }
+    
+    td {
+        text-shadow: 1px 1px 1px #E8C2CD;
+    }
+
+    tr.even td, tr.even th {
+        background-color: #E8C2CD;
+    }
+
+    tr.head th:first-child {
+        -webkit-border-top-left-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    tr.head th:last-child {
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    fieldset {
+        width: 310px;
+        margin: 25px auto 25px auto;
+        border: 1px solid #E8C2CD;
+        background-color: #E8C2CD;
+        line-height: 1.6em;
+    }
+
+    legend {
+        font-style: italic;
+        color: blak;
+    }
+
+    input[type="text"] {
+        width: 120px;
+        border: 1px solid #B97F8B;
+        padding: 2px;
+        outline: none;
+    }
+
+    input[type="text"]:focus,
+    input[type="text"]:hover {
+        background-color: #B97F8B;
+        border: 1px solid #999999;
+    }
+
+    input[type="submit"] {
+        border: 1px solid #66807E;
+        background-color:rgb(165, 29, 93);
+        color:#ffffff;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    input[type="submit"]:hover {
+        border: 1px solid #006633;
+        background-color: rgb(165, 29, 93);
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .title {
+        float: left;
+        width: 160px;
+        clear: left;
+    }
+    .submit {
+        width: 310px;
+        text-align: right;
+        margin-left: 390px;
+    }
